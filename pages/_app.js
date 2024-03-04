@@ -26,8 +26,9 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <base href="/" />
-        <title>Elastos Info - Destiny Calls</title>
+        <title>Elastos - Destiny Calls</title>
         {/* Add your meta theme color tag */}
+        <meta name="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
         <meta name="theme-color" content="#091C3F" />
         <meta property="og:title" content="elastos" />
         <meta property="og:type" content="website" />
