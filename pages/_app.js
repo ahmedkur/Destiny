@@ -26,10 +26,10 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <base href="/" />
-        <title>ELASTRO</title>
+        <title>Elastos Info - Destiny Calls</title>
         {/* Add your meta theme color tag */}
         <meta name="theme-color" content="#091C3F" />
-        <meta property="og:title" content="elastro" />
+        <meta property="og:title" content="elastos" />
         <meta property="og:type" content="website" />
       </Head>
       <NoSSRWrapper>
