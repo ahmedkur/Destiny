@@ -1,0 +1,199 @@
+/* Start Variables */
+:root {
+  --primary-color: #091C3F;
+  --secondary-color: #F56D1A;
+  --less-opacity-seconday-color: #F5911A;
+  --white-color: #ffffff;
+  --gray-color: #747575;
+  --less-gray-color: #eeeeeeb6;
+  --section-background: #ececec;
+  --black-color: #000000;
+}
+
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubonto", sans-serif;
+}
+
+.container {
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+/* Extra Small Screens */
+/* @media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+} */
+/* Small Screens */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* Start Jumbotron */
+.jumbotron {
+  background-image: url(../public/assets/images/jumbotronImage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(transparent,
+      #091C3F);
+}
+
+.jumbotron::after {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: -20%;
+  width: 900px;
+  height: 900px;
+  background: #F56D1A;
+  background: radial-gradient(closest-side, #f56e1a97, transparent);
+}
+
+.jumbotron h1 {
+  background: -webkit-linear-gradient(45deg, #F56D1A 8%, white, #cddbfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 0px;
+}
+
+.jumbotron .button-back {
+  background-image: linear-gradient(180deg, #F56D1A, rgba(245, 146, 26, 0.42));
+}
+
+.jumbotron .white-circle {
+  background: #B6CCFE;
+  background: radial-gradient(closest-side, #b6ccfe5f, transparent);
+}
+
+/* End Jumbotron */
+
+/* Start Other Parts */
+.other-parts .card-1 {
+  background-image: linear-gradient(175deg, #091C3F 20%, rgba(182, 204, 254, 0.245));
+}
+
+.other-parts .small-line {
+  background-image: linear-gradient(45deg, #f56e1abb, #F5911A);
+}
+
+.other-parts .number-circle {
+  background-image: linear-gradient(45deg, #f56e1abb, #f89e31);
+}
+
+.other-parts .card-2::after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  right: -15%;
+  width: 700px;
+  height: 700px;
+  background: #f56e1ab8;
+  background: radial-gradient(closest-side, #f56e1a5f, #f56e1a2f, transparent);
+  z-index: -1;
+}
+
+.other-parts .card-3::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: -50%;
+  width: 900px;
+  height: 900px;
+  background: #b6ccfe71;
+  background: radial-gradient(closest-side, #b6ccfe46, #b6ccfe1f, transparent);
+  z-index: -1;
+}
+
+.other-parts .card-6::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  width: 1300px;
+  height: 1300px;
+  background: #b6ccfec5;
+  background: radial-gradient(closest-side, #b6ccfe46, #b6ccfe1f, transparent);
+  z-index: -1;
+  -webkit-transform: translate(-30%, -50%);
+  -moz-transform: translate(-30%, -50%);
+  -ms-transform: translate(-30%, -50%);
+  -o-transform: translate(-30%, -50%);
+}
+
+.last-card {
+  overflow: hidden;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.last-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -25%;
+  width: 75%;
+  height: 600px;
+  background: #b6ccfebb;
+  background: radial-gradient(closest-side, #b6ccfec7, transparent);
+}
+
+.last-card::after {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  right: -25%;
+  width: 700px;
+  height: 700px;
+  background: #F56D1A;
+  background: radial-gradient(closest-side, #f56e1a63, #b6ccfe0f, transparent);
+}
+
+.last-card .button-back {
+  background-image: linear-gradient(180deg, #F56D1A, rgba(245, 146, 26, 0.42));
+}
+
+/* End Other Parts */
