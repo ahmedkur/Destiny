@@ -31,6 +31,9 @@ const MyApp = ({ Component, pageProps }) => {
         <meta name="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
         <meta name="theme-color" content="#091C3F" />
         <meta property="og:title" content="elastos" />
+        <meta property="og:image" content="assets/images/thumbnail.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="693"/>
         <meta property="og:type" content="website" />
       </Head>
       <NoSSRWrapper>

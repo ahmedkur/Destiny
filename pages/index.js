@@ -143,7 +143,7 @@ export default function Home() {
                     <div className="w-full">
                       <p className="text-xl w-full text-start" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <span className="text-[var(--secondary-color)] font-extrabold">First Cohort:</span> Smart Entertainment and Leisure(Jan-Apr 2024): 6-8 projects in digital entertainment, gaming, and leisure, leveraging BeL2 and Elastos' infrastructure for advanced user experiences.
+                        <span className="text-[var(--secondary-color)] font-extrabold">First Cohort:</span> Smart Entertainment and Leisure (March-May 2024): 6-8 projects in digital entertainment, gaming, and leisure, leveraging BeL2 and Elastos' infrastructure for advanced user experiences.
                         <br />
                         <br />
                         <span className="text-[var(--secondary-color)] font-extrabold">Objective:</span> Showcase Smart Entertainment's potential on the Smart Web with interactive, immersive blockchain-powered experiences.
@@ -156,7 +156,7 @@ export default function Home() {
                     <div className="w-full">
                       <p className="text-xl w-full text-start" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <span className="text-[var(--secondary-color)] font-extrabold">Second Cohort:</span> Smart Finance and DeFi (May-Aug 2024): 8-10 projects innovating in Bitcoin-based finance plus 4 in Smart Entertainment, diversifying the cohort's impact.
+                        <span className="text-[var(--secondary-color)] font-extrabold">Second Cohort:</span> Smart Finance and DeFi (May-July 2024): 8-10 projects innovating in Bitcoin-based finance plus 4 in Smart Entertainment, diversifying the cohort's impact.
                         <br />
                         <br />
                         <span className="text-[var(--secondary-color)] font-extrabold">Objective:</span> Develop DeFi on Bitcoin, creating secure, efficient, user-centric decentralized finance foundations.
@@ -272,7 +272,7 @@ export default function Home() {
                 <div className="w-full h-full blur-xl absolute top-0 left-0 z-[-1] bg-[#b6ccfe29]"></div>
                 <h1 className="text-4xl font-extrabold mt-4 w-full text-center" data-aos="fade-up"
                   data-aos-duration="1000">Be Part of the Smart Web</h1>
-                <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSeIErcxNNNC0WqRqcSLV38T1aYpO7o_xsfe9BZYgtxVklS3mQ/viewform'} target="_blank" className="w-full flex justify-center items-center pt-4 relative z-[500]" data-aos="fade-up"
+                <Link href={'https://elastos.questbook.app/'} target="_blank" className="w-full flex justify-center items-center pt-4 relative z-[500]" data-aos="fade-up"
                   data-aos-duration="2000">
                   <div className={`rounded-2xl p-2 button-back`}>
                     <button className={`bg-[var(--secondary-color)] rounded-xl px-14 py-2`}>
