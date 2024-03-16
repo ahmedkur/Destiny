@@ -32,8 +32,8 @@ const MyApp = ({ Component, pageProps }) => {
         <meta name="theme-color" content="#091C3F" />
         <meta property="og:title" content="Elastos - Destiny Calls" />
         <meta property="og:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="900"/>
+        <meta property="og:image:width" content="1080" />
+        <meta property="og:image:height" content="540"/>
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.jpg" />
