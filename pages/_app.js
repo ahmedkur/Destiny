@@ -27,11 +27,11 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <base href="/" />
         <title>Elastos - Destiny Calls</title>
-        { /* Add your meta theme color tag */
+        { /* Add your meta theme color tag */ 
           <meta name="theme-color" content="#091C3F" />
         }
         <meta name="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
-
+        
         <!-- Google / Search Engine Tags -->
         <meta itemprop="name" content="Elastos - Destiny Calls" />
         <meta itemprop="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
@@ -51,11 +51,11 @@ const MyApp = ({ Component, pageProps }) => {
         <meta name="twitter:image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
         <meta name="twitter:site" content="@ElastosInfo" />
 
-        <!--
+        /*
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="900"/>
         <meta name="twitter:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.jpg" />
-        -->        
+        */        
       </Head>
       <NoSSRWrapper>
         <Layout>
