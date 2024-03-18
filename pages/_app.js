@@ -32,19 +32,19 @@ const MyApp = ({ Component, pageProps }) => {
         }
         <meta name="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
         
-        <!-- Google / Search Engine Tags -->
+        /* Google / Search Engine Tags */
         <meta itemprop="name" content="Elastos - Destiny Calls" />
         <meta itemprop="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
         <meta itemprop="image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
 
-        <!-- Facebook Meta Tags -->
+        /* Facebook Meta Tags */
         <meta property="og:url" content="https://destinycalls.elastos.info" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Elastos - Destiny Calls" />
         <meta property="og:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world.">
         <meta property="og:image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
 
-        <!-- Twitter Meta Tags -->
+        /* Twitter Meta Tags */
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Elastos - Destiny Calls" />
         <meta name="twitter:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
