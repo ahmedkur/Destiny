@@ -41,7 +41,7 @@ const MyApp = ({ Component, pageProps }) => {
         <meta property="og:url" content="https://destinycalls.elastos.info" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Elastos - Destiny Calls" />
-        <meta property="og:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world.">
+        <meta property="og:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
         <meta property="og:image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
 
         /* Twitter Meta Tags */
