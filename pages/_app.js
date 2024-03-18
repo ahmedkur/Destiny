@@ -53,7 +53,7 @@ const MyApp = ({ Component, pageProps }) => {
 
         /*
         <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="900"/>
+        <meta property="og:image:height" content="900" />
         <meta name="twitter:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.jpg" />
         */        
       </Head>
