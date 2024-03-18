@@ -27,17 +27,35 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <base href="/" />
         <title>Elastos - Destiny Calls</title>
-        {/* Add your meta theme color tag */}
+        { /* Add your meta theme color tag */
+          <meta name="theme-color" content="#091C3F" />
+        }
         <meta name="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
-        <meta name="theme-color" content="#091C3F" />
+
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="Elastos - Destiny Calls" />
+        <meta itemprop="description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
+        <meta itemprop="image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://destinycalls.elastos.info" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="Elastos - Destiny Calls" />
-        <meta property="og:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.png" />
+        <meta property="og:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world.">
+        <meta property="og:image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Elastos - Destiny Calls" />
+        <meta name="twitter:description" content="The Destiny Calls Program combines Elastos and Bitcoin Layer 2 technologies with Smart Web to enhance Web3 growth, emphasizing user empowerment and equity. Utilizing BeL2, EVM contracts, and Elastos’ identity/storage tools, it accelerates progress towards an interconnected world." />
+        <meta name="twitter:image" content="http://destinycalls.elastos.info/assets/images/thumbnail.png" />
+        <meta name="twitter:site" content="@ElastosInfo" />
+
+        <!--
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="900"/>
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
         <meta name="twitter:image" content="https://destinycalls.elastos.info/assets/images/thumbnail.jpg" />
-        <meta name="twitter:site" content="@ElastosInfo" />
+        -->        
       </Head>
       <NoSSRWrapper>
         <Layout>
