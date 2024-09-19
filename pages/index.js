@@ -257,7 +257,7 @@ export default function Home() {
                       data-aos-duration="2200">
                       <span className="number-circle w-[40px] h-[40px] px-4 rounded-full text-white flex justify-center items-center">4</span>
                       <p className="text-xl w-full text-start">
-                        Funds will be distributed via Questbook
+                        Funds will be distributed
                       </p>
                     </div>
                   </div>
@@ -272,7 +272,7 @@ export default function Home() {
                 <div className="w-full h-full blur-xl absolute top-0 left-0 z-[-1] bg-[#b6ccfe29]"></div>
                 <h1 className="text-4xl font-extrabold mt-4 w-full text-center" data-aos="fade-up"
                   data-aos-duration="1000">Be Part of the Smart Web</h1>
-                <Link href={'https://elastos.questbook.app/'} target="_blank" className="w-full flex justify-center items-center pt-4 relative z-[500]" data-aos="fade-up"
+                <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSeIErcxNNNC0WqRqcSLV38T1aYpO7o_xsfe9BZYgtxVklS3mQ/viewform?usp=sf_link'} target="_blank" className="w-full flex justify-center items-center pt-4 relative z-[500]" data-aos="fade-up"
                   data-aos-duration="2000">
                   <div className={`rounded-2xl p-2 button-back`}>
                     <button className={`bg-[var(--secondary-color)] rounded-xl px-14 py-2`}>
